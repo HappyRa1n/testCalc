@@ -139,12 +139,16 @@ namespace Сalculator
             ClickPlus(false);//отклчили кнопку
             ClickEnterDays(true);
             ClickEnterMonth(true);
+<<<<<<< HEAD
             //изиииииииидадада22222
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+=======
+            //изиииииииидадада1111111
+>>>>>>> develop
         }
     }
 }
