@@ -45,6 +45,7 @@
             this.FormatData = new System.Windows.Forms.ComboBox();
             this.Delete = new System.Windows.Forms.Button();
             this.Result = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // EnterT
@@ -59,7 +60,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(783, 9);
+            this.label1.Location = new System.Drawing.Point(846, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 32);
             this.label1.TabIndex = 2;
@@ -224,17 +225,28 @@
             // Result
             // 
             this.Result.Font = new System.Drawing.Font("Times New Roman", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Result.Location = new System.Drawing.Point(789, 70);
+            this.Result.Location = new System.Drawing.Point(852, 67);
             this.Result.Name = "Result";
             this.Result.ReadOnly = true;
-            this.Result.Size = new System.Drawing.Size(316, 62);
+            this.Result.Size = new System.Drawing.Size(471, 62);
             this.Result.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1147, 170);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(215, 608);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Вывод в сокращенном формате";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 881);
+            this.ClientSize = new System.Drawing.Size(1394, 879);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Delete);
             this.Controls.Add(this.FormatData);
             this.Controls.Add(this.ResHours);
@@ -278,6 +290,7 @@
         private System.Windows.Forms.ComboBox FormatData;
         private System.Windows.Forms.Button Delete;
         private System.Windows.Forms.TextBox Result;
+        private System.Windows.Forms.Button button1;
     }
 }
 
